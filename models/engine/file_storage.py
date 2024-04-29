@@ -76,7 +76,7 @@ class FileStorage:
                 all_objs = self.all(cls)
                 for v in all_objs.items():
                     if v.id == id:
-                        return v 
+                        return v
             return
         return
 
@@ -91,3 +91,4 @@ class FileStorage:
             return len(all_instances)
         if cls not in classes.values():
             return
+        
